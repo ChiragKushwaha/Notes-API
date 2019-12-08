@@ -1,4 +1,4 @@
-<h1>GET REQUEST</h1>
+<h1>GET REQUEST<\h1>
 
 
 <h2>url :</h2><h1>http://127.0.0.1:8000/</h1>                    //sends the url where notes are stored
