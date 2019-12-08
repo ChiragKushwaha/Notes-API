@@ -1,7 +1,7 @@
-/////////////////////////   GET REQUEST //////////////////////////////////
+<h1>GET REQUEST</h1>
 
 
-url : http://127.0.0.1:8000/                    //sends the url where notes are stored
+<h2>url :</h2><h1>http://127.0.0.1:8000/</h1>                    //sends the url where notes are stored
 {
     "note": "http://127.0.0.1:8000/note/"
 }
@@ -9,7 +9,7 @@ url : http://127.0.0.1:8000/                    //sends the url where notes are 
 
 
 
-//structure of note
+<h3>structure of note</h3>
 [
     {
         "id": ,
@@ -24,7 +24,7 @@ url : http://127.0.0.1:8000/                    //sends the url where notes are 
 
 
 
-url : http://127.0.0.1:8000/note  //sends all the notes created
+<h2>url :</h2><h1>http://127.0.0.1:8000/note</h1>  //sends all the notes created
 [
     {
         "id": 4,
@@ -65,7 +65,7 @@ url : http://127.0.0.1:8000/note  //sends all the notes created
 
 
 
-url : http://127.0.0.1:8000/note/1       //Can retrieve a note with it's id number
+<h2>url :</h2><h1>http://127.0.0.1:8000/note/1</h1>       //Can retrieve a note with it's id number
 {
     "id": 1,
     "title": "maths",
@@ -77,9 +77,9 @@ url : http://127.0.0.1:8000/note/1       //Can retrieve a note with it's id numb
 
 
 
-/////////////////////// POST REQUEST ////////////////////
+<h1>POST REQUEST</h1>
 
-url : http://127.0.0.1:8000/note/   //Creation of new note
+<h2>url :</h2><h1>http://127.0.0.1:8000/note/</h1>   //Creation of new note
 {
     "title": [
         "This field is required."
@@ -91,8 +91,8 @@ url : http://127.0.0.1:8000/note/   //Creation of new note
 
 
 
-//////////////////// PUT REQUEST ////////////////
-url : http://127.0.0.1:8000/note/1/         //POST UPDATION Using it's id number
+<h1>PUT REQUEST</h1>
+<h2>url :</h2><h1>http://127.0.0.1:8000/note/1/</h1>         //POST UPDATION Using it's id number
 {
     "title": [
         "This field is required."
@@ -102,8 +102,7 @@ url : http://127.0.0.1:8000/note/1/         //POST UPDATION Using it's id number
     ]
 }
 
-
-///////////////// DELETE REQUEST //////////////////////
-url : http://127.0.0.1:8000/note/3/        //Dekete by id
+<h1>DELETE REQUEST</h1>
+<h2>url :</h2><h1>http://127.0.0.1:8000/note/3/</h1>        //Dekete by id number
 
 
