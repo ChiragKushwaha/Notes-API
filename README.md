@@ -1,7 +1,7 @@
 <h1>GET REQUEST</h1>
 
 
-<h2>url :</h2><h3>http://127.0.0.1:8000/<h3>                <mark><h4>sends the url where notes are stored</h4></mark>
+<h3>url : http://127.0.0.1:8000/<h3>                <mark><h4>Sends the url where notes are stored</h4></mark>
 <pre>{
     "note": "http://127.0.0.1:8000/note/"
 }</pre>
@@ -9,7 +9,7 @@
 
 
 
-<h1>structure of note</h1>
+<h1>STRUCTURE OF A NOTE</h1>
 <pre>[
     {
         "id": ,
@@ -24,7 +24,7 @@
 
 
 
-<h2>url :</h2><h3>http://127.0.0.1:8000/note</h3>      <mark><h4>sends all the notes created</h4></mark>
+<h3>url : http://127.0.0.1:8000/note</h3>      <mark><h4>Sends all the notes created</h4></mark>
 <pre>[
     {
         "id": 4,
@@ -65,7 +65,7 @@
 
 
 
-<h2>url :</h2><h3>http://127.0.0.1:8000/note/1</h3>        <mark><h4>Can retrieve a note with it's id number</h4></mark>
+<h2>url : http://127.0.0.1:8000/note/1</h3>        <mark><h4>Can retrieve a note with it's id number</h4></mark>
 <pre>{
     "id": 1,
     "title": "maths",
@@ -79,7 +79,7 @@
 
 <h1>POST REQUEST</h1>
 
-<h2>url :</h2><h3>http://127.0.0.1:8000/note/</h3>          <mark><h4>Creation of new note</h4></mark>
+<h3>url : http://127.0.0.1:8000/note/</h3>          <mark><h4>Creation of new note</h4></mark>
 <pre>{
     "title": [
         "This field is required."
@@ -92,7 +92,7 @@
 
 
 <h1>PUT REQUEST</h1>
-<h2>url :</h2><h3>http://127.0.0.1:8000/note/1/</h3>          <mark><h4>POST UPDATION Using it's id number</h4></mark>
+<h3>url : http://127.0.0.1:8000/note/1/</h3>          <mark><h4>Post Updation Using it's id number</h4></mark>
 <pre>{
     "title": [
         "This field is required."
@@ -103,6 +103,6 @@
 }</pre>
 
 <h1>DELETE REQUEST</h1>
-<h2>url :</h2><h3>http://127.0.0.1:8000/note/3/</h3>         <mark><h4>Dekete by id number</h4></mark>
+<<h3>url : http://127.0.0.1:8000/note/3/</h3>         <mark><h4>Delete by id number</h4></mark>
 
 
